@@ -2,7 +2,7 @@
 MYNAME's version of Boot.dev's Notely app.
 This repo contains the starter code for the "Notely" application for the "Learn CICD" course on [Boot.dev](https://boot.dev).
 
-![https://github.com/Nosiferum/cicd-test/actions/workflows/ci.yml/badge.svg](https://github.com/Nosiferum/cicd-test/actions/workflows/ci.yml/badge.svg)
+[![CI Status](https://github.com/Nosiferum/cicd-test/actions/workflows/ci.yml/badge.svg)](https://github.com/Nosiferum/cicd-test/actions/workflows/ci.yml)
 
 ## Local Development
 
