@@ -39,7 +39,7 @@ func main() {
 	}
 	portNumber, err := strconv.Atoi(port)
 	if err != nil || portNumber < 1 || portNumber > 65535 {
-		log.Fatalf("PORT environment variable must be a valid port number (1-65535): %q", port)
+		log.Fatal("PORT environment variable must be a valid port number (1-65535)")
 	}
 
 	apiCfg := apiConfig{}
