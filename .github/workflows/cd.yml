@@ -11,4 +11,11 @@ jobs:
         with:
           go-version: "1.25.1"
       - run: bash scripts/buildprod.sh
-
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: '${{ secrets.GCP_CREDENTIALS }}'
+      - name: Setup gcloud
+        uses: google-github-actions/setup-gcloud@v3
+      - name: 'Use gcloud CLI'
+        run: 'gcloud info'
